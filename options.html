@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="options.css">
+  </head>
+  <body style="background:#eee">
+    <div id="content">
+      <div id="joy-con-wrapper">
+        <div id="actions">
+          <button id="rotate-button">Rotate</button>
+        </div>
+        <div id="joy-con">
+          <div id="joy-con-strap">
+            <div id="joy-con-strap-buttons">
+              <button id="sl"></button>
+              <button id="sr"></button>
+            </div>
+            <div id="joy-con-strap-body">
+            </div>
+          </div>
+          <div id="joy-con-body">
+            <button class="circle-button" id="minus"></button>
+            <div id="stick-wrapper">
+              <button class="circle-button" id="stick"></button>
+              <div id="stick-up"></div>
+              <div id="stick-left"></div>
+              <div id="stick-right"></div>
+              <div id="stick-down"></div>
+            </div>
+            <button class="circle-button" id="up"></button>
+            <button class="circle-button" id="left"></button>
+            <button class="circle-button" id="right"></button>
+            <button class="circle-button" id="down"></button>
+            <button id="capture"></button>
+          </div>
+          <button id="l"></button>
+          <button id="zl"></button>
+        </div>
+      </div>
+      <form id="form">
+        <p>Keymap settings</p>
+        <div class="form-content">
+          <div class="field-list">
+            <div class="field">
+              <label for="field-sl">SL</label>
+              <input id="field-sl" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-sr">SR</label>
+              <input id="field-sr" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-minus">Minus</label>
+              <input id="field-minus" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-l">L</label>
+              <input id="field-l" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-zl">ZL</label>
+              <input id="field-zl" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-capture">Capture</label>
+              <input id="field-capture" type="text" />
+            </div>
+          </div>
+          <div class="field-list">
+            <div class="field">
+              <label for="field-stick-up">Stick Up</label>
+              <input id="field-stick-up" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-stick-left">Stick Left</label>
+              <input id="field-stick-left" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-stick-right">Stick Right</label>
+              <input id="field-stick-right" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-stick-down">Stick Down</label>
+              <input id="field-stick-down" type="text" />
+            </div>
+          </div>
+          <div class="field-list">
+            <div class="field">
+              <label for="field-up">Up</label>
+              <input id="field-up" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-left">Left</label>
+              <input id="field-left" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-right">Right</label>
+              <input id="field-right" type="text" />
+            </div>
+            <div class="field">
+              <label for="field-down">Down</label>
+              <input id="field-down" type="text" />
+            </div>
+          </div>
+          <button id="submit-button">SAVE</button>
+        </div>
+      </form>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>
